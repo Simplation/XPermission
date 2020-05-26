@@ -19,20 +19,25 @@ class MainActivity : AppCompatActivity() {
         makeCallBtn.setOnClickListener {
             XPermission.request(
                 this,
+                // 申请多个权限需要使用 `,` 隔开
                 Manifest.permission.CALL_PHONE,
                 Manifest.permission.CAMERA,
                 Manifest.permission.WRITE_EXTERNAL_STORAGE
             ) { allGranted, deniedList ->
+                /**
+                 * allGranted：一个 boolean 类型的变量，若为 true ,则所有权限申请通过
+                 * deniedList：一个 List 类型的变量，表示用户拒绝权限列表
+                 */
                 if (allGranted) {
                     call()
                 } else {
                     Toast.makeText(this, "You defined $deniedList", Toast.LENGTH_SHORT).show()
                 }
-
             }
         }
     }
 
+    @SuppressLint("MissingPermission")
     private fun call() {
         val intent = Intent(Intent.ACTION_CALL)
         intent.data = Uri.parse("tel:10086")

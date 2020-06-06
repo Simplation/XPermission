@@ -62,7 +62,7 @@ XPermission.request(
 👤 **Simplation**
 
 - `Github` ： https://github.com/Simplation/
-- 个人博客：http://xcynice.xyz/
+- 个人博客：http://www.simplation.wang/
 
 
 

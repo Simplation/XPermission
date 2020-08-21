@@ -62,12 +62,10 @@ XPermission.request(
 👤 **Simplation**
 
 - `Github` ： https://github.com/Simplation/
-- 个人博客：http://www.simplation.wang/
+- `Personal Blog`：http://www.simplation.wang/
 
 
 
 ## Show your support
 
 Give a ⭐️ if this project helped you!
-
-***

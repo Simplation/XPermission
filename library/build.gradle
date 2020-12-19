@@ -4,7 +4,7 @@ apply plugin: 'kotlin-android-extensions'
 
 // 添加下面两行
 apply plugin: 'com.github.dcendents.android-maven'
-// 这里 LoveLifeEveryday 改为你的 github 账号名
+// 这里 Simplation 改为你的 github 账号名
 group = 'com.github.Simplation'
 
 android {

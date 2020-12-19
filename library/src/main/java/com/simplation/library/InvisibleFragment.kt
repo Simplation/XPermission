@@ -4,7 +4,7 @@ import android.content.pm.PackageManager
 import androidx.fragment.app.Fragment
 
 /**
- * @作者: W ◕‿-｡ Z
+ * @作者: Simplation
  * @日期: 2020/5/25 19:38
  * @描述: 运行时权限的实现思路，有以下三种：
  *          1. 将运行时权限的操作封装到 BaseActivity 中

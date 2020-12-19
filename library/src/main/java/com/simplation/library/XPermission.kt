@@ -3,7 +3,7 @@ package com.simplation.library
 import androidx.fragment.app.FragmentActivity
 
 /**
- * @作者: W ◕‿-｡ Z
+ * @作者: Simplation
  * @日期: 2020/5/25 19:50
  * @描述:
  * @更新:
